@@ -21,9 +21,9 @@ const GetStarted = () => (
         variants={planetVariants('left')}
         className={`flex-1 ${styles.flexCenter}`}
         >
-        <Image 
+        <Image  
           src="/get-started.png"
-          alt="get-started"
+          alt="get started"
           width={400}
           height={400}
           className="w-[90%] h-[90%] object-contain"
