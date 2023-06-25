@@ -24,9 +24,10 @@ const Footer = () => (
         <h4 className="font-bold text-[44px] md:text-[64px] text-white">
           Enter the Metaverse
         </h4>
-        <button type="button" className="flex items-center h-fit 
-                                          py-4 px-6 bg-[#25618B] 
-                                          rounded-[32px] gap-[12px]">
+        <button type="button" className="flex items-center h-fit
+                                          py-4 px-6 bg-[#25618B]
+                                          rounded-[32px] gap-[12px]"
+        >
           <Image
             src="/headset.svg"
             alt="headset"
@@ -51,7 +52,7 @@ const Footer = () => (
             Copyright © 2021 - 2022 Metaversus. All rights reserved.
           </p>
           <div className="flex gap-4">
-            {socials.map((social, index) => (
+            {socials.map((social) => (
               <Image
                 key={social.name}
                 src={social.url}
@@ -59,8 +60,8 @@ const Footer = () => (
                 width={24}
                 height={24}
                 className="object-contain cursor-pointer"
-                />
-              ))}
+              />
+            ))}
           </div>
         </div>
       </div>
